@@ -3,8 +3,11 @@
 # Returns a string that is the contents of the myName variable written backwards
 # ie: passing Atkinson as the parameter would return nosniktA
 def reverseName(myName):
-  # Write your code here
-
+  myName = 'Haley'
+   myName[::-1]
+    nameLength=len(myName)
+    slicedName=myName[nameLength::-1]
+    print(slicedName)
   result = myName
   return result
 
